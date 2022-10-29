@@ -39,7 +39,7 @@
 }
 @keyframes movimiento{
     0%{transform: translateX(0px);}
-    100%{transform: translateX(-344px);}
+    100%{transform: translateX(-339px);}
 }
 
 
@@ -114,6 +114,7 @@
     width: 5%;
     height: 100%;
     position: relative;
+    margin-right: 5px;
 }
 
 .nav__cart .nav__cantCart{
@@ -128,5 +129,33 @@
 .nav__hamburguer{
     width: 5%;
     height: 100%;
-    background-color: brown;
+    background-color: whitesmoke;
+    position: relative;
+    margin-left: 5px;
+    cursor: pointer;
 }
+
+.nav .nav__hamburguer .nav__barra{
+    background-color: var(--negro);
+    display: block;
+    width: 100%;
+    height: 5px;
+    margin-top: 12px;
+    transition: all .45s;
+    transform-origin: 0 100%;
+}
+
+/* .nav .nav__hamburguer .nav__barra--arriba{
+    transform: rotate(45deg) translate(-2px,1px);
+    margin-left: 7px;
+}
+
+.nav .nav__hamburguer .nav__barra--medio{
+    opacity: 0;
+    margin-left: -40px;
+}
+
+.nav .nav__hamburguer .nav__barra--abajo{
+    transform: rotate(-45deg) translate(-9px,10px);
+    margin-left: 7px;
+} */

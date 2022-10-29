@@ -41,9 +41,9 @@ function Header(){
             <Letrero/>
             <nav className="nav">
                 <div className="nav__hamburguer">
-                    <span className="nav__barra"/>
-                    <span className="nav__barra"/>
-                    <span className="nav__barra"/>
+                    <span className="nav__barra nav__barra--arriba"/>
+                    <span className="nav__barra nav__barra--medio"/>
+                    <span className="nav__barra nav__barra--abajo"/>
                 </div>
                 <Items/>
                 <Icono/>
