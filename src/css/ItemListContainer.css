@@ -1,0 +1,18 @@
+.items{
+    margin-top: 160px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.items .items__publicidad{
+    width: 40%;
+    height: 100%;
+}
+
+.items .items__publicidad .items__img{
+    width: 100%;
+    height: 100%
+}

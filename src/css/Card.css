@@ -1,0 +1,42 @@
+.clothes__cardDescription{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.clothes__cardDescription .clothes__cardImg{
+    width: 100%;
+    height: 80%;
+}
+
+.clothes__cardDescription .clothes__info{
+    width: 100%;
+    height: 15%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 70% 30%;
+}
+
+
+.clothes__cardDescription .clothes__info .clothes__cardH2{
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.clothes__cardDescription .clothes__info .clothes__cardColor{
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.clothes__cardDescription .clothes__info .clothes__cardPrice{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+

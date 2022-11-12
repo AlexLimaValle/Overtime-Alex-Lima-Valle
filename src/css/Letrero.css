@@ -1,0 +1,28 @@
+.letrero{
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+    background-color: #f7f3f3;
+}
+
+.letrero .letrero__contenedor{
+    width: 180%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    animation-name: mover;
+    animation-timing-function:linear;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+.letrero .letrero__contenedor .letrero__p{
+    margin-left: 10px;
+}
+
+@keyframes mover {
+    0%{transform: translateX(-0px);}
+    100%{transform: translateX(-282px);}
+}
